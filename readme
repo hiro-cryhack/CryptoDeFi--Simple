@@ -1,0 +1,25 @@
+npm 项目结构
+接下来，我们将创建一个 npm 项目，其中包含智能合约代码以及与合约交互的 JavaScript 代码。
+
+首先，创建一个文件夹用于你的项目，比如 simple-defi。
+在项目文件夹中初始化 npm 项目：
+
+npm init -y
+
+安装必要的依赖：
+
+npm install ethers
+
+创建一个名为 SimpleDeFi.sol 的文件，将上面的智能合约代码复制粘贴到其中。
+
+js中确保替换代码中的以下值：
+
+your_infura_project_id: 你的 Infura 项目 ID。
+
+your_private_key: 你的以太坊账户的私钥。
+
+your_contract_address: 你的智能合约部署的地址。
+
+运行项目
+
+要运行项目，只需在命令行中运行 node index.js，它将与以太坊网络交互，并执行存款和提款操作。
